@@ -1,0 +1,15 @@
+li {
+	list-style-type: none; /* Убираем маркеры */
+}
+ul {
+	margin-left: 0; /* Отступ слева в браузере IE и Opera */
+	padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.combobox {
+	width: 200px;
+}
+
+.combobox option:nth-child(even) {
+	background-color: #e0ffff;
+}

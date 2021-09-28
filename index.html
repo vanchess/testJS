@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link href="./app.css" rel="stylesheet">
+        <title>Test</title>
+    </head>
+    <body>
+        <div>
+            <form id="form-main" action="#">
+                <p>
+                    <label for="organization">Компания</label>
+                    <select type="text" id="organization" class="combobox">
+                        <option disabled selected value> </option>
+                    </select>
+                </p>
+                <p id="job-titles">
+                </p>
+                <p>
+                    <label for="employee">Сотрудник</label>
+                    <select type="text" id="employee" class="combobox">
+                        <option disabled selected value> </option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" value="Добавить">
+                    <input id="btn-clear" type="button" value="Очистить">
+                </p>
+            </form>
+        </div>
+        <div>
+            <ul id="info">
+            </ul>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
